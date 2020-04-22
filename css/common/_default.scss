@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.no-padding{
+  @include min-screen(1024px){
+    padding: 0;
+  }
+}
+.no-margin{
+  margin: 0;
+}
