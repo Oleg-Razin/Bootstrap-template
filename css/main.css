@@ -425,6 +425,7 @@ section {
   height: 46px;
   display: none;
   position: fixed;
+  opacity: 0.5;
   right: 30px;
   bottom: 10%;
   color: #4d4d4d;
@@ -435,6 +436,7 @@ section {
   transition: .3s;
   z-index: 5; }
   #button-up:hover {
+    opacity: 1;
     cursor: pointer;
     transform: translateY(-5px);
     box-shadow: 0 18px 26.68px 2.32px rgba(255, 255, 255, 0.2);
